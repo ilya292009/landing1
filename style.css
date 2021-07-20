@@ -1,0 +1,138 @@
+div{
+	text-align: center;
+}
+.menu a{
+	text-decoration: none;
+	color: black;
+	padding: 25px 50px;
+	display: inline-block;
+}
+.menu a:hover{
+	background-color: red;
+}
+.img{
+	background-image: url("img/polygons.png");
+	background-repeat: no-repeat;
+	color: white;
+	background-position: center;
+	padding-top: 200px;
+	padding-bottom: 150px; 
+}
+.submit{
+	padding: 15px 20px;
+	border-radius: 15px;
+	background-color: white;
+	cursor: pointer;
+}
+#about img{
+	float:right;
+	width: 400px;
+}
+#about p{
+	margin-left: 150px;
+	text-align: justify;
+}
+.team{
+	text-align: left;
+	width: 20%;
+	display: inline-block;
+	box-shadow: 0 2px 5px grey;
+	padding: 10px;
+	margin: 10px;
+}
+.team img{
+	width: 100%;
+}
+.job{
+	color: grey;
+}
+.team a{
+	border-style: solid;
+	background-color: darkblue;
+	color: white;
+	border-radius: 10px;
+	width: 100%;
+	padding: 10px 0;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+}
+#rates{
+	background-color: grey;
+	color: white;
+	text-align: center center;
+
+}
+ul{
+	display: inline-block;
+	color: black;
+	list-style-type: none;
+	vertical-align: middle;
+
+}
+li{
+	border-style: solid;
+	border-color: lightgrey;
+	background-color: white;
+	width: 455px;
+	padding: 15px 0;
+	border-width: 1px;
+}
+#rates .rate1{
+	background-color: black;
+	color: white;
+	padding: 20px 0px;
+}
+#rates .rate2{
+	background-color: lightblue;
+	padding: 25px 0px;
+}
+#rates .rate3{
+	background-color: black;
+	color: white;
+	padding: 20px 0px;
+}
+#rates button{
+	width: 100px;
+	height: 40px;
+	background-color: black;
+	color: white;
+	border-radius: 10px;
+	cursor: pointer;
+}
+span{
+	font-weight: bold;
+}
+ul li:last-child{
+	background-color: #f1f1f1;
+}
+#contact{
+	background-color: #f1f1f1;
+}
+#contact h2{
+	margin: 0;
+	padding: 15px;
+}
+#contact p{
+	margin: 0;
+	padding: 5px;
+	text-align: left;
+}
+#contact input{
+	display: block;
+	width: 98%;
+	padding: 5px;
+	margin: 10px;
+}
+#contact .top{
+	text-align: center
+}
+#contact input[type=submit]{
+	text-align: center;
+	background-color: black;
+	color: white;
+	width: 200px;
+	border-radius: 10px;
+	cursor: pointer;
+}
